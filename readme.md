@@ -12,12 +12,15 @@ Specs
 
 | Spec Input Output
 | :------------- | :------------- | :------------- | |
+|The number value of 1 must return a letter value of 1 in roman numeral|Input:1 |Output:I |
+|The number value of 5 must return a letter value of 5 in roman numeral|Input:5 |Output:V |
+|The number value of 10 must return a letter value of 10 in roman numeral|Input:10 |Output:X |
+|The number value of 4 and 9 must return a letter value in roman numeral|Input:4 or 9 |Output:IV or IX|
+|The number value of two digits is return in roman numeral|Input:25 |Output:XV |
+|The number value of three digits is return in roman numeral|Input:300 |Output:CCC |
+|The number value of 3999 must return a roman numeral|Input:3999 |Output:MMMCMXCIX |
+|The number value of 4000 must return nothing in roman numeral|Input:4000 |Output:Not valid |
 
-Program will stop at anything less than 4000 | 4000 | not valid
-Program will do nothing if the input is not a number | A | A
-Program will take the number of the single value that is not 4 or 9 | 5 | V
-Program will take the number that is 4 or 9| 4 |IV
-Program will take the number of two/three digits | 300 | XXX
 
 Setup/Installation Requirements:
 1.Clone this repository.
