@@ -1,0 +1,8 @@
+body{
+  background-image: url("https://i.pinimg.com/originals/6d/d2/1b/6dd21b0d7e9892284a3180da48b5da4f.jpg");
+}
+#result{
+  color:red;
+  font-size: 30px;
+  text-align: center;
+}
